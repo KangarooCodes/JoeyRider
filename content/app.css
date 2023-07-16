@@ -1,0 +1,141 @@
+body {
+	margin: 0;
+	background: gray;
+	text-align: center;
+}
+	/* MAIN */
+main {
+	margin-left: 400px;
+}
+.main-container .sub-container {
+	border: black 1px solid;
+	margin: 0;
+	height: 475px;
+	background-color: rgb(116, 185, 175);
+	
+}
+.proj-2 {
+	filter: blur(4px);
+}
+.main-container .sub-container img {
+	width: 40vw;
+	max-width: 800px;
+	display: inline;
+	float: left;
+	height: 70%;
+	margin-right: 10px;
+	border: rgba(0,0,0,0.2) 1px solid;
+}
+.sub-container div a {
+	position: relative;
+	height: 35px;
+	font-size: 18px;
+	background: transparent;
+	cursor: pointer;
+	float: left;
+	border: none;
+	padding: 0;
+	text-decoration: none;
+	font-weight: 700;
+	color: black;
+	font-family: 'Comfortaa', 'Courier New', Courier, monospace;
+}
+.main-container div a:hover {
+	top: 1px;
+	left: 1.5px;
+}
+.sub-container div {
+	height: 3vh;
+}
+div strong {
+	position: relative;
+	float: left;
+	text-align: start;
+	margin-left: 3vw;
+	border: none;
+	width: 20%;
+	height: 35px;
+	font-size: 24px;
+}
+.summ {
+	margin: 0;
+	height: 300px;
+	padding-top: 5vh;
+	position: relative;
+	padding-left: 30vw;
+	font-size: 18px;
+	white-space: pre-line;
+	font-family: 'Roboto', sans-serif, Courier;
+}
+.stack {
+	position: relative;
+	text-align: start;
+	margin-left: 3vw;
+	font-weight: 400;
+	color: rgb(44, 44, 44);
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif, Courier;
+}
+	/* NAV */
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	filter: grayscale(1);
+}
+.social {
+	font-size: 35px;
+	position: relative;
+	margin-top: 10vh;
+}
+.social a:hover {
+	color: rgba(0,255,255,0.6);
+	filter: grayscale(0);
+}
+
+.sidenav {
+	height: 100%;
+  	width: 400px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: gray;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+.sidenav h1 {
+	font-family: 'Dancing Script', cursive, 'Gill Sans', Calibri;
+	font-size: 44px;
+	margin: 0;
+	color: cyan;
+	text-shadow: black 0 0 4px;
+}
+.sidenav h2 {
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: lighter;
+	font-size: 24px;
+	padding: 0 8px 0;
+}
+.sidenav h4 {
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: lighter;
+	font-size: 20px;
+}
+.sidenav span:hover {
+	color: cyan;
+	text-shadow: black 0.2px 0.2px 2px;
+}
+.avatar img {
+	border-radius: 100%;
+	width: 300px;
+	margin-top: 0.5em;
+	box-shadow: cyan 0 0 3px;
+	cursor: auto;
+}
+@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+  }
