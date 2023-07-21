@@ -11,13 +11,13 @@
 	<header>
 		<nav class="sidenav">
 			<h1>Joey Rider</h1>
-			<a class="image avatar" title="A really nice guy"><img src="../assets/profile/avatar.png" alt="image of Joey, webmaster"/></a>
+			<a class="image avatar" title="A really nice guy"><img src="assets/profile/avatar.png" alt="image of Joey, webmaster"/></a>
 			<h2>Hey there, I'm <span>Joey</span>,  a Software Engineer dedicated to providing reliable, yet delightful code.</h2>
 			<h4>Please contact me by any means below.<br/> In the meantime, please enjoy a few of my projects.</h4>
 			<section class="social">
 				<a href="https://github.com/KangarooCodes" class="fa fa-2xl fa-github"></a>
 				<a href="https://www.linkedin.com/in/joey-rider-96808b94/" class="fa fa-2xl fa-linkedin"></a>
-				<a href="mailto:riderj@live.com" class="fa fa-2xl fa-envelope"></a>
+				<a href="mailto:riderj@live.com" class="fa fa-2xl fa-envelope"></a><br/>
 			</section>
 		</nav>
 	</header>
@@ -26,7 +26,7 @@
 	<main>
 		<div class="main-container">
 			<div class="sub-container">
-				<img class="proj-1" src="../assets/projects/cafe.png" onclick="location.href='https://github.com/KangarooCodes/ReactCafe'" alt="cafe bar" title="Go to Project Files"></img>
+				<img class="proj-1" src="assets/projects/cafe.png" alt="cafe bar" title="Go to Project Files"></img>
 				<p class="summ">The idea here was to build upon a basic CRA that was created and connected to a database.
 					The app was barely functional and I needed to get it up and running with proper React components.<br/>
 					Using my knowledge on React and APIs, I was able to add complete functionality and beautify the entire project.</p>
@@ -36,8 +36,21 @@
 				</div>
 				<p class="stack">ReactJS - HTML5 - CSS</p>
 			</div>
-						<div class="sub-container">
-				<img class="proj-2" src="../assets/projects/bankly.png" onclick="location.href='https://github.com/KangarooCodes/ReactCafe'" alt="cafe bar" title="Go to Project Files"></img>
+			<div class="sub-container">
+				<img class="proj-2" src="assets/projects/dj.png" alt="cafe bar" title="Go to Project Files"></img>
+				<p class="summ">
+					Create your Own Songs.<br/>
+					Create your Own Playlists.<br/>
+					Now sync them together! Python and SQL combine into one to help you creating the ultimate DJ playlists.
+				</p>
+				<div>
+					<strong>Song Playlist DJ!</strong>				
+					<a href='https://github.com/KangarooCodes/SongPlaylists' class="code-btn1">View Code on GitHub</a><br/>
+				</div>
+				<p class="stack">Flask - WTForms - SQLAlchemy - HTML5</p>
+			</div>
+			<div class="sub-container">
+				<img class="proj-3" src="assets/projects/bankly.png" alt="cafe bar" title="Go to Project Files"></img>
 				<p class="summ">Here, I was given a terribly broken app focused on NodeJS with SQL.<br/>
 					There were plenty of tests written, but they were not catching any of the existing bugs. It was my job to
 					<i>squash</i> these bugs and write tests for them.<br/>
@@ -50,7 +63,7 @@
 				<p class="stack">NodeJS - SQL - HTML5</p>
 			</div>
 			<div class="sub-container">
-				<img class="proj-3" src="../assets/projects/madlib.PNG" onclick="location.href='https://github.com/KangarooCodes/madlibs'" alt="cafe bar" title="Go to Project Files"></img>
+				<img class="proj-4" src="assets/projects/madlib.PNG" alt="cafe bar" title="Go to Project Files"></img>
 				<p class="summ">This here is just a simple taste of some fun with a React Madlibs Game.
 					Enter a couple nouns, an djective, and a color and get a random Sentence with your selections included.<br/>
 					Not very robust, but everyone must continue with their fundamentals to stay on top.
@@ -62,22 +75,45 @@
 				<p class="stack">ReactJS - HTML5 - CSS</p>
 			</div>
 			<div class="sub-container">
-				<img class="proj-4" src="../assets/projects/cafe.png" onclick="location.href='https://github.com/KangarooCodes/ReactCafe'" alt="cafe bar" title="Go to Project Files"></img>
-				<p class="summ">The idea here was to build upon a basic CRA that was created and connected to a database.
-					The app was barely functional and I needed to get it up and running with proper React components.
-					Using my knowledge on React and APIs, I was able to add functionality and beautify the entire project.</p>
+				<img class="proj-4" src="assets/projects/jeopardy.png" alt="cafe bar" title="Go to Project Files"></img>
+				<p class="summ">Jeopardy!<br/>
+					Load Jeopardy prompts from the Jeopardy api with AXIOS.
+					If the API is slow to load, you may refresh the page with better results.
+				</p>
 				<div>
-					<strong>React Cafe</strong>				
-					<a href='https://github.com/KangarooCodes/ReactCafe' class="code-btn1">View Code on GitHub</a><br/>
+					<strong>Jeopardy</strong>				
+					<a href='https://github.com/KangarooCodes/Jeopardy' class="code-btn1">View Code on GitHub</a><br/>
 				</div>
-				<p class="stack">ReactJS - HTML5 - CSS</p>
+				<p class="stack">JavaScript - AXIOS - HTML5 - CSS</p>
 			</div>
+			
+			<section id="form">
+				<h2>Get In Touch</h2>
+				<p>You are also welcome to fill the following form as a means to reach out</p>
+				<div class="row">
+					<div class="col-8 col-12-small">
+						<form method="post" action="#">
+							<div class="row">
+								<div><input type="text" name="name" id="name" placeholder="Your Name"></div>
+								<div><input type="email" name="email" id="email" placeholder="Your Email"></div>
+								<div><textarea name="message" id="message" placeholder="A Beautiful Message" rows="4"></textarea></div>
+							</div>
+						</form>
+						<ul class="actions">
+							<li><input id="form-btn" type="submit" value="Send Message"></li>
+						</ul>
+					</div>
+				</div>
+			</section>
 		</div>
 	</main>
+
+
 
 	<!-- Scripts -->
 	<script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" crossorigin="anonymous"></script>
 	<script src="./app.js"></script>
+
 	<!-- Styling -->
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Dancing+Script:wght@600&family=Roboto&display=swap');
