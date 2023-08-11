@@ -114,8 +114,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: peachpuff;
 		text-decoration: none;
 	}
 
@@ -124,6 +123,16 @@ input, select, textarea {
 			color: royalblue !important;
 			text-decoration: none;
 		}
+
+	#one a {
+		margin-bottom: 4rem;
+		margin-right: 14rem;
+		display: inline-block;
+		color: rgba(65, 105, 225,1);
+	}
+	#one a:hover {
+		color: rgba(65, 105, 225,0.7) !important;
+	}
 
 	strong, b {
 		color: #787878;
@@ -150,10 +159,10 @@ input, select, textarea {
 			text-decoration: none;
 		}
 
-	h1 {
+	/* h1{
 		font-size: 2em;
 		line-height: 1.5em;
-	}
+	} */
 
 	h2 {
 		font-size: 1.5em;
@@ -161,7 +170,7 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.25em;
+		font-size: 1em;
 		line-height: 1.5em;
 	}
 
@@ -1805,8 +1814,8 @@ input, select, textarea {
 		line-height: 1.5em;
 	}
 
-	header.major h2 {
-		font-size: 2em;
+	header.major h3 {
+		font-size: 1.8em;
 		color: rgb(255, 255, 255);
 	}
 
@@ -2623,16 +2632,15 @@ input, select, textarea {
 		background-attachment: scroll,								scroll;
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
-		padding: 8em 4em 2em;
+		padding: 4em 4em 2em;
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
+		width: 28%;
 	}
 
 		#header > * {
@@ -2654,7 +2662,7 @@ input, select, textarea {
 		#header strong, #header b {
 			color: royalblue;
 			font-weight: bold;
-			text-shadow: black 0px 0px 0.5px;
+			text-shadow: 0.4px 0.8px 2px black;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2663,7 +2671,7 @@ input, select, textarea {
 
 		#header h1 {
 			color: rgba(255, 255, 255, 1);
-			font-size: 1.35em;
+			font-size: 1.2em;
 			line-height: 1.75em;
 			margin: 0;
 		}
@@ -2714,12 +2722,20 @@ input, select, textarea {
 				color: inherit;
 			}
 
+			.actions li {
+				margin-top: 2rem;
+				width: 80%;
+				align-items: center;
+			}
+			.actions li a {
+				padding: 0 50%;
+			}
 /* Main */
 
 	#main {
 		margin-left: 35%;
 		max-width: 54em;
-		padding: 8em 4em 4em 4em;
+		padding: 1em 0 4em;
 		width: calc(100% - 35%);
 	}
 
@@ -3063,10 +3079,12 @@ input, select, textarea {
 			#main {
 				margin-left: 30%;
 				max-width: none;
-				padding: 6em 3em 3em 3em;
+				padding: 1em 2em 3em 2em;
 				width: calc(100% - 30%);
 			}
-
+			#one a {
+				margin-right: 8rem;
+			}
 	}
 
 /* Medium */
@@ -3145,7 +3163,7 @@ input, select, textarea {
 
 			#main {
 				margin: 0;
-				padding: 6em 4em;
+				padding: 1em 4em;
 				width: 100%;
 			}
 
