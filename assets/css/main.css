@@ -3027,7 +3027,7 @@ input, select, textarea {
 	body.is-touch #header {
 		background-attachment: scroll;
 		background-size: auto, cover;
-		position: fixed;
+		/* position: fixed; */
 	}
 
 	body.is-touch .poptrox-popup .nav-next,
@@ -3057,7 +3057,7 @@ input, select, textarea {
 			#header {
 				padding: 6em 3em 3em 3em;
 				width: 30%;
-				position: fixed;
+				position: relative;
 			}
 
 				#header h1 {
@@ -3119,7 +3119,7 @@ input, select, textarea {
 				background-size: auto,		cover;
 				left: auto;
 				padding: 6em 4em;
-				position: fixed;
+				position: relative;
 				text-align: center;
 				top: auto;
 				width: 100%;
@@ -3219,7 +3219,7 @@ input, select, textarea {
 
 			#header {
 				padding: 2.25em 1.5em;
-				position: fixed;
+				position: relative;
 			}
 
 				#header h1 {
@@ -3264,7 +3264,7 @@ input, select, textarea {
 
 			#header {
 				padding: 4.5em 1.5em;
-				position: fixed;
+				position: relative;
 			}
 
 				#header h1 br {
