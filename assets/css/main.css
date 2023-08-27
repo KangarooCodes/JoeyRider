@@ -85,7 +85,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: #262626;
+		/* background: #00719c; */
+		background: #003043;
 	}
 
 		body.preloaded *, body.preloaded *:before, body.preloaded *:after {
@@ -100,7 +101,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #d5d5d5;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -2096,14 +2097,14 @@ input, select, textarea {
 		}
 
 			.image.thumb:after {
-				-moz-transition: opacity 0.2s ease-in-out;
-				-webkit-transition: opacity 0.2s ease-in-out;
-				-ms-transition: opacity 0.2s ease-in-out;
-				transition: opacity 0.2s ease-in-out;
+				-moz-transition: opacity 0.6s ease-in-out;
+				-webkit-transition: opacity 0.6s ease-in-out;
+				-ms-transition: opacity 0.6s ease-in-out;
+				transition: opacity 0.6s ease-in-out;
 				border-radius: 0.35em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
 				color: #fff;
-				content: 'View';
+				content: 'View Code';
 				display: inline-block;
 				font-size: 0.8em;
 				font-weight: 400;
@@ -2632,11 +2633,11 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
-		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-		background-position: top left,							top left;
-		background-size: auto,								150%;
+		background-attachment: scroll, scroll;
+		background: #0048bba8;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00bfff), to(#0048bba8)) fixed;
+		background-position: top left, top left;
+		background-size: auto, 150%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -2645,6 +2646,7 @@ input, select, textarea {
 		text-align: right;
 		top: 0;
 		width: 28%;
+		box-shadow: 0 0 20px -2px rgba(0, 100, 200, 0.9);
 	}
 
 		#header > * {
@@ -2670,11 +2672,11 @@ input, select, textarea {
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #000000;
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 1);
+			color: #000000;
 			font-size: 1.2em;
 			line-height: 1.75em;
 			margin: 0;
@@ -3025,6 +3027,7 @@ input, select, textarea {
 	body.is-touch #header {
 		background-attachment: scroll;
 		background-size: auto, cover;
+		position: fixed;
 	}
 
 	body.is-touch .poptrox-popup .nav-next,
@@ -3054,6 +3057,7 @@ input, select, textarea {
 			#header {
 				padding: 6em 3em 3em 3em;
 				width: 30%;
+				position: fixed;
 			}
 
 				#header h1 {
@@ -3115,7 +3119,7 @@ input, select, textarea {
 				background-size: auto,		cover;
 				left: auto;
 				padding: 6em 4em;
-				position: relative;
+				position: fixed;
 				text-align: center;
 				top: auto;
 				width: 100%;
@@ -3215,6 +3219,7 @@ input, select, textarea {
 
 			#header {
 				padding: 2.25em 1.5em;
+				position: fixed;
 			}
 
 				#header h1 {
@@ -3259,6 +3264,7 @@ input, select, textarea {
 
 			#header {
 				padding: 4.5em 1.5em;
+				position: fixed;
 			}
 
 				#header h1 br {

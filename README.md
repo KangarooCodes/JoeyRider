@@ -1,6 +1,6 @@
 # JoeyRider
 
-## Welcome to my site :)
+## Welcome to my site :hugs:
 
 #### If you need to reach me, please see below
 
